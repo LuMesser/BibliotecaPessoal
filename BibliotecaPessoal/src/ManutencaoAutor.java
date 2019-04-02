@@ -82,10 +82,11 @@ public class ManutencaoAutor extends javax.swing.JDialog {
                                     .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
                                     .addComponent(jTextField1, javax.swing.GroupLayout.PREFERRED_SIZE, 265, javax.swing.GroupLayout.PREFERRED_SIZE))
                                 .addGroup(layout.createSequentialGroup()
+                                    .addGap(8, 8, 8)
                                     .addComponent(jLabel3)
-                                    .addGap(18, 18, 18)
+                                    .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
                                     .addComponent(jTextField2))))))
-                .addContainerGap(65, Short.MAX_VALUE))
+                .addContainerGap(20, Short.MAX_VALUE))
         );
         layout.setVerticalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
@@ -106,7 +107,7 @@ public class ManutencaoAutor extends javax.swing.JDialog {
                     .addComponent(jButton2)
                     .addComponent(jButton3)
                     .addComponent(jButton4))
-                .addContainerGap(106, Short.MAX_VALUE))
+                .addContainerGap(60, Short.MAX_VALUE))
         );
 
         pack();
